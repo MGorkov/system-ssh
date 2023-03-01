@@ -1,0 +1,42 @@
+{
+  "name": "system-ssh",
+  "version": "1.0.0",
+  "author": "Maksim Gorkov <mgorkov@gmail.com>",
+  "description": "A wrapper for system ssh with SSH2 interface",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.16.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  },
+  "keywords": [
+    "ssh",
+    "ssh2",
+    "secure",
+    "shell",
+    "exec",
+    "remote",
+    "client"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/MGorkov/system-ssh/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/MGorkov/system-ssh.git"
+  },
+  "files": [
+    "index.js",
+    "Client.js",
+    "Channel.js"
+  ]
+}
